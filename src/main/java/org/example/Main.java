@@ -9,6 +9,8 @@ import javax.swing.SwingUtilities;
 
 public class Main {
     public static void main(String[] args) {
+        MainFrame.configureLookAndFeel();
+
         Neo4jConfig config = Neo4jConfig.load();
 
         Neo4jConnection connection = new Neo4jConnection(config);

@@ -69,16 +69,21 @@ export NEO4J_USER=neo4j
 export NEO4J_PASSWORD=12345678
 ```
 
-## Interfaz grafica
+## Interfaz grafica avanzada
 
-La aplicacion abre una ventana con cinco pestanas:
+La aplicacion abre una ventana de escritorio con navegacion lateral, cabecera de
+estado, dashboard y vistas de trabajo:
 
+- Panel general: metricas de usuarios, publicaciones, intereses y sugerencias.
 - Usuarios: crear, listar, actualizar y borrar usuarios.
 - Publicaciones: crear publicaciones asociadas a un autor, actualizar y borrar.
 - Intereses: crear, renombrar, listar y borrar intereses.
 - Relaciones: crear/eliminar amistades, asignar intereses y dar likes.
 - Consultas: amigos sugeridos, intereses comunes, publicaciones con mas likes,
   camino mas corto y comunidades por ciudad.
+
+En las tablas de Usuarios, Publicaciones e Intereses se puede seleccionar una
+fila para rellenar automaticamente el formulario de edicion.
 
 ## Archivos de entrega
 
